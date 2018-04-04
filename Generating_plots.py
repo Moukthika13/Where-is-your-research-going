@@ -20,7 +20,7 @@ from gensim import corpora
 
 #loading data
 docs = []
-indir = "/Users/Moukthika/Desktop/pdf_ml"
+indir = "path to folder containing pdf files"
 for root, dirs, filenames in os.walk(indir):
     for f in filenames:
         log = open(os.path.join(root, f), 'r', encoding='latin1')

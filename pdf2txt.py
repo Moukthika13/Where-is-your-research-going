@@ -8,7 +8,7 @@ Created on Sun Nov 19 12:26:50 2017
 import PyPDF2, os
 #loading data
 i = 0
-indir = "/Users/Moukthika/Desktop/ml_data"
+indir = "path to  folder containing pdfs"
 for root, dirs, filenames in os.walk(indir):
     for f in filenames:
         p = open("/Users/Moukthika/Desktop/pdf_extract/"+str(i)+".txt",'w', encoding = 'utf-8')
